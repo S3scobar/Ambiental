@@ -1,0 +1,884 @@
+[
+  {
+    "codigo": "1000004-M",
+    "nombre": "Cálculo Diferencial",
+    "creditos": 4,
+    "obligatoria": true,
+    "agrupacion": "matematicas-probabilidad-estadistica",
+    "semestre": 1,
+    "prerrequisitos": [],
+    "whatsapp": ""
+  },
+  {
+    "codigo": "1000008-M",
+    "nombre": "Geometría Vectorial y Analítica",
+    "creditos": 4,
+    "obligatoria": true,
+    "agrupacion": "matematicas-probabilidad-estadistica",
+    "semestre": 1,
+    "prerrequisitos": [],
+    "whatsapp": ""
+  },
+  {
+    "codigo": "1000003-M",
+    "nombre": "Álgebra Lineal",
+    "creditos": 4,
+    "obligatoria": true,
+    "agrupacion": "matematicas-probabilidad-estadistica",
+    "semestre": 2,
+    "prerrequisitos": [
+      "1000008-M"
+    ],
+    "whatsapp": ""
+  },
+  {
+    "codigo": "1000005-M",
+    "nombre": "Cálculo Integral",
+    "creditos": 4,
+    "obligatoria": true,
+    "agrupacion": "matematicas-probabilidad-estadistica",
+    "semestre": 2,
+    "prerrequisitos": [
+      "1000004-M"
+    ],
+    "whatsapp": ""
+  },
+  {
+    "codigo": "1000006-M",
+    "nombre": "Cálculo en Varias Variables",
+    "creditos": 4,
+    "obligatoria": true,
+    "agrupacion": "matematicas-probabilidad-estadistica",
+    "semestre": 3,
+    "prerrequisitos": [
+      "1000005-M"
+    ],
+    "whatsapp": ""
+  },
+  {
+    "codigo": "1000007-M",
+    "nombre": "Ecuaciones Diferenciales",
+    "creditos": 4,
+    "obligatoria": true,
+    "agrupacion": "matematicas-probabilidad-estadistica",
+    "semestre": 3,
+    "prerrequisitos": [
+      "1000005-M",
+      "1000003-M"
+    ],
+    "whatsapp": ""
+  },
+  {
+    "codigo": "3006907",
+    "nombre": "Métodos Numéricos",
+    "creditos": 4,
+    "obligatoria": true,
+    "agrupacion": "matematicas-probabilidad-estadistica",
+    "semestre": 4,
+    "prerrequisitos": [
+      "1000005-M",
+      "1000003-M"
+    ],
+    "whatsapp": ""
+  },
+  {
+    "codigo": "3010651",
+    "nombre": "Estadística I",
+    "creditos": 3,
+    "obligatoria": true,
+    "agrupacion": "matematicas-probabilidad-estadistica",
+    "semestre": 4,
+    "prerrequisitos": [
+      "1000005-M"
+    ],
+    "whatsapp": ""
+  },
+  {
+    "codigo": "3006829",
+    "nombre": "Química General",
+    "creditos": 3,
+    "obligatoria": true,
+    "agrupacion": "ciencias-basicas",
+    "semestre": 1,
+    "prerrequisitos": [],
+    "whatsapp": ""
+  },
+  {
+    "codigo": "1000009-M",
+    "nombre": "Biología General",
+    "creditos": 3,
+    "obligatoria": true,
+    "agrupacion": "ciencias-basicas",
+    "semestre": 2,
+    "prerrequisitos": [],
+    "whatsapp": ""
+  },
+  {
+    "codigo": "1000019-M",
+    "nombre": "Física Mecánica",
+    "creditos": 4,
+    "obligatoria": true,
+    "agrupacion": "ciencias-basicas",
+    "semestre": 2,
+    "prerrequisitos": [
+      "1000004-M"
+    ],
+    "whatsapp": ""
+  },
+  {
+    "codigo": "3007000",
+    "nombre": "Geología Física",
+    "creditos": 4,
+    "obligatoria": true,
+    "agrupacion": "ciencias-basicas",
+    "semestre": 4,
+    "prerrequisitos": [
+      "1000004-M",
+      "1000008-M"
+    ],
+    "whatsapp": ""
+  },
+  {
+    "codigo": "3011012",
+    "nombre": "Ecología General",
+    "creditos": 3,
+    "obligatoria": true,
+    "agrupacion": "ciencias-basicas",
+    "semestre": 5,
+    "prerrequisitos": [
+      "1000009-M"
+    ],
+    "whatsapp": ""
+  },
+  {
+    "codigo": "3008596",
+    "nombre": "Microbiología General",
+    "creditos": 3,
+    "obligatoria": false,
+    "agrupacion": "ciencias-basicas",
+    "semestre": null,
+    "prerrequisitos": [
+      "1000009-M"
+    ],
+    "whatsapp": ""
+  },
+  {
+    "codigo": "1000034-M",
+    "nombre": "Química Orgánica",
+    "creditos": 3,
+    "obligatoria": false,
+    "agrupacion": "ciencias-basicas",
+    "semestre": null,
+    "prerrequisitos": [
+      "3006829"
+    ],
+    "whatsapp": ""
+  },
+  {
+    "codigo": "3009417",
+    "nombre": "Biología Evolutiva",
+    "creditos": 3,
+    "obligatoria": false,
+    "agrupacion": "ciencias-basicas",
+    "semestre": null,
+    "prerrequisitos": [
+      "1000009-M"
+    ],
+    "whatsapp": ""
+  },
+  {
+    "codigo": "1000017-M",
+    "nombre": "Física de Electricidad y Magnetismo",
+    "creditos": 4,
+    "obligatoria": false,
+    "agrupacion": "ciencias-basicas",
+    "semestre": null,
+    "prerrequisitos": [
+      "1000019-M",
+      "1000005-M"
+    ],
+    "whatsapp": ""
+  },
+  {
+    "codigo": "1000020-M",
+    "nombre": "Física de Oscilaciones Ondas y Óptica",
+    "creditos": 4,
+    "obligatoria": false,
+    "agrupacion": "ciencias-basicas",
+    "semestre": null,
+    "prerrequisitos": [
+      "1000007-M"
+    ],
+    "whatsapp": ""
+  },
+  {
+    "codigo": "3010435",
+    "nombre": "Fundamentos de Programación",
+    "creditos": 3,
+    "obligatoria": true,
+    "agrupacion": "herramientas-informaticas",
+    "semestre": 5,
+    "prerrequisitos": [
+      "1000003-M"
+    ],
+    "whatsapp": ""
+  },
+  {
+    "codigo": "3010660",
+    "nombre": "Economía de Recursos Naturales y del Medio Ambiente",
+    "creditos": 3,
+    "obligatoria": true,
+    "agrupacion": "ciencias-socioeconomicas",
+    "semestre": 4,
+    "prerrequisitos": [],
+    "whatsapp": "https://chat.whatsapp.com/BQx68dIVEHW8yqYrISO5Sc"
+  },
+  {
+    "codigo": "3009024",
+    "nombre": "Cultura y Medio Ambiente",
+    "creditos": 3,
+    "obligatoria": true,
+    "agrupacion": "ciencias-socioeconomicas",
+    "semestre": 3,
+    "prerrequisitos": [],
+    "whatsapp": "https://chat.whatsapp.com/DWui5LDgGz96sT4kuRpFHZ"
+  },
+  {
+    "codigo": "3010446",
+    "nombre": "Introducción a la Ingeniería Ambiental",
+    "creditos": 3,
+    "obligatoria": true,
+    "agrupacion": "basicas-ingenieria",
+    "semestre": 1,
+    "prerrequisitos": [],
+    "whatsapp": ""
+  },
+  {
+    "codigo": "3006960",
+    "nombre": "Mecánica de Fluidos",
+    "creditos": 4,
+    "obligatoria": true,
+    "agrupacion": "basicas-ingenieria",
+    "semestre": 5,
+    "prerrequisitos": [
+      "1000007-M",
+      "1000019-M"
+    ],
+    "whatsapp": "https://chat.whatsapp.com/HkKKIIhY6YuEcOBnntyrG7"
+  },
+  {
+    "codigo": "3010478",
+    "nombre": "Termodinámica General",
+    "creditos": 3,
+    "obligatoria": true,
+    "agrupacion": "basicas-ingenieria",
+    "semestre": 3,
+    "prerrequisitos": [
+      "1000019-M"
+    ],
+    "whatsapp": ""
+  },
+  {
+    "codigo": "3007814",
+    "nombre": "Fenómenos de Transporte",
+    "creditos": 4,
+    "obligatoria": false,
+    "agrupacion": "basicas-ingenieria",
+    "semestre": null,
+    "prerrequisitos": [
+      "1000007-M"
+    ],
+    "whatsapp": ""
+  },
+  {
+    "codigo": "3008999",
+    "nombre": "Fenómenos Críticos",
+    "creditos": 3,
+    "obligatoria": false,
+    "agrupacion": "basicas-ingenieria",
+    "semestre": null,
+    "prerrequisitos": [
+      "1000007-M"
+    ],
+    "whatsapp": "https://chat.whatsapp.com/Gite01j3td64zWe6INqBGE"
+  },
+  {
+    "codigo": "3009001",
+    "nombre": "Planificación Integral y Ordenamiento del Territorio",
+    "creditos": 3,
+    "obligatoria": true,
+    "agrupacion": "tecnologias-manejo-ambiental",
+    "semestre": 8,
+    "prerrequisitos": [
+      "3008231",
+      "3009024"
+    ],
+    "whatsapp": "https://chat.whatsapp.com/KIatygTliuiLQfY7Au0eHV?s=cl&p=i&mlu=0"
+  },
+  {
+    "codigo": "3010501",
+    "nombre": "Gestión y Evaluación Ambiental",
+    "creditos": 3,
+    "obligatoria": true,
+    "agrupacion": "tecnologias-manejo-ambiental",
+    "semestre": 6,
+    "prerrequisitos": [
+      "3011012",
+      "3007385",
+      "3009024"
+    ],
+    "whatsapp": "https://chat.whatsapp.com/HU690Y5yBt93vKY4BmZBxS?s=cl&p=i&mlu=0"
+  },
+  {
+    "codigo": "3010455",
+    "nombre": "Contaminación Ambiental",
+    "creditos": 4,
+    "obligatoria": true,
+    "agrupacion": "tecnologias-manejo-ambiental",
+    "semestre": 6,
+    "prerrequisitos": [
+      "3006829",
+      "3006907",
+      "3006960"
+    ],
+    "whatsapp": "https://chat.whatsapp.com/IzDk0tiqWQw6sifgI01spA?s=sw&p=i&mlu=0&ilr=0"
+  },
+  {
+    "codigo": "3008231",
+    "nombre": "Derecho Ambiental",
+    "creditos": 3,
+    "obligatoria": true,
+    "agrupacion": "tecnologias-manejo-ambiental",
+    "semestre": 7,
+    "prerrequisitos": [
+      "3010501"
+    ],
+    "whatsapp": ""
+  },
+  {
+    "codigo": "3010453",
+    "nombre": "Valoración Económica del Impacto Ambiental",
+    "creditos": 3,
+    "obligatoria": true,
+    "agrupacion": "tecnologias-manejo-ambiental",
+    "semestre": 7,
+    "prerrequisitos": [
+      "3010660",
+      "3010651"
+    ],
+    "whatsapp": "https://chat.whatsapp.com/CQX9OGnGIgq4dTlo8XCaCs"
+  },
+  {
+    "codigo": "3009714",
+    "nombre": "Introducción a la Modelación Ambiental",
+    "creditos": 3,
+    "obligatoria": false,
+    "agrupacion": "tecnologias-manejo-ambiental",
+    "semestre": null,
+    "prerrequisitos": [
+      "1000007-M"
+    ],
+    "whatsapp": "https://chat.whatsapp.com/IeNWniCXTM7EAPL6GxO88q"
+  },
+  {
+    "codigo": "3009002",
+    "nombre": "Análisis de Datos Ambientales",
+    "creditos": 3,
+    "obligatoria": false,
+    "agrupacion": "tecnologias-manejo-ambiental",
+    "semestre": null,
+    "prerrequisitos": [
+      "3010651"
+    ],
+    "whatsapp": ""
+  },
+  {
+    "codigo": "3009369",
+    "nombre": "Diseño Ambiental",
+    "creditos": 3,
+    "obligatoria": false,
+    "agrupacion": "tecnologias-manejo-ambiental",
+    "semestre": null,
+    "prerrequisitos": [
+      "3010407"
+    ],
+    "whatsapp": "https://chat.whatsapp.com/HqiSXZFDuec2HC98WedMTp?s=cl&p=i&mlu=0"
+  },
+  {
+    "codigo": "3006988",
+    "nombre": "Fundamentos de Sistemas de Información Geográfica",
+    "creditos": 3,
+    "obligatoria": false,
+    "agrupacion": "tecnologias-manejo-ambiental",
+    "semestre": null,
+    "prerrequisitos": [
+      "3010435"
+    ],
+    "whatsapp": "https://chat.whatsapp.com/FUtHiKZK2br4atoC9JEAsK"
+  },
+  {
+    "codigo": "3007385",
+    "nombre": "Hidrología",
+    "creditos": 3,
+    "obligatoria": true,
+    "agrupacion": "ciencias-medioambientales",
+    "semestre": 5,
+    "prerrequisitos": [
+      "3010651"
+    ],
+    "whatsapp": "https://chat.whatsapp.com/F7xMQXMkBzz5CAgHof5jIP"
+  },
+  {
+    "codigo": "3007383",
+    "nombre": "Hidráulica",
+    "creditos": 3,
+    "obligatoria": true,
+    "agrupacion": "ciencias-medioambientales",
+    "semestre": 6,
+    "prerrequisitos": [
+      "3006960"
+    ],
+    "whatsapp": "https://chat.whatsapp.com/HrAGEoVQNbo2cGWnjD7ZyN?s=cl&p=i&mlu=4"
+  },
+  {
+    "codigo": "3009004",
+    "nombre": "Biogeoquímica",
+    "creditos": 3,
+    "obligatoria": true,
+    "agrupacion": "ciencias-medioambientales",
+    "semestre": 7,
+    "prerrequisitos": [
+      "3010478",
+      "3007000"
+    ],
+    "whatsapp": "https://chat.whatsapp.com/LTW95XPMbTO2uc45ROCpM0"
+  },
+  {
+    "codigo": "3009404",
+    "nombre": "Suelos y Medio Ambiente",
+    "creditos": 4,
+    "obligatoria": true,
+    "agrupacion": "ciencias-medioambientales",
+    "semestre": 7,
+    "prerrequisitos": [
+      "3007000"
+    ],
+    "whatsapp": "https://chat.whatsapp.com/Gi7yhSFArN317v0Jz4UrLD"
+  },
+  {
+    "codigo": "3007709",
+    "nombre": "Geomorfología",
+    "creditos": 3,
+    "obligatoria": false,
+    "agrupacion": "ciencias-medioambientales",
+    "semestre": null,
+    "prerrequisitos": [
+      "3007000"
+    ],
+    "whatsapp": "https://chat.whatsapp.com/HUOg3o3sqVVJMpJtT7z16j?mode=gi_t"
+  },
+  {
+    "codigo": "3010459",
+    "nombre": "Geografía Física y Humana",
+    "creditos": 3,
+    "obligatoria": false,
+    "agrupacion": "ciencias-medioambientales",
+    "semestre": null,
+    "prerrequisitos": [
+      "3007000"
+    ],
+    "whatsapp": "https://chat.whatsapp.com/DJHHEZ5hSiSCUPTgLvd7VA"
+  },
+  {
+    "codigo": "3010454",
+    "nombre": "Ambiente Urbano",
+    "creditos": 3,
+    "obligatoria": false,
+    "agrupacion": "ciencias-medioambientales",
+    "semestre": null,
+    "prerrequisitos": [],
+    "whatsapp": "https://chat.whatsapp.com/GOaP8Rpg9Ce5YsB1wPZZQ1?s=cl&p=i&mlu=0"
+  },
+  {
+    "codigo": "3010408",
+    "nombre": "Fundamentos de Proyectos en Ingeniería",
+    "creditos": 3,
+    "obligatoria": true,
+    "agrupacion": "proyectos",
+    "semestre": 5,
+    "prerrequisitos": [],
+    "whatsapp": ""
+  },
+  {
+    "codigo": "3010407",
+    "nombre": "Estructuración y Evaluación de Proyectos de Ingeniería",
+    "creditos": 3,
+    "obligatoria": true,
+    "agrupacion": "proyectos",
+    "semestre": 6,
+    "prerrequisitos": [
+      "3010408"
+    ],
+    "whatsapp": ""
+  },
+  {
+    "codigo": "3010439",
+    "nombre": "Proyecto Integrado de Ingeniería",
+    "creditos": 4,
+    "obligatoria": true,
+    "agrupacion": "proyectos",
+    "semestre": 8,
+    "prerrequisitos": [
+      "3010407"
+    ],
+    "whatsapp": ""
+  },
+  {
+    "codigo": "3007382",
+    "nombre": "Hidráulica Fluvial",
+    "creditos": 3,
+    "obligatoria": false,
+    "agrupacion": "optativas-profesionales",
+    "semestre": null,
+    "prerrequisitos": [
+      "3007383"
+    ],
+    "whatsapp": ""
+  },
+  {
+    "codigo": "3009242",
+    "nombre": "Limnología",
+    "creditos": 3,
+    "obligatoria": false,
+    "agrupacion": "optativas-profesionales",
+    "semestre": null,
+    "prerrequisitos": [
+      "3006960"
+    ],
+    "whatsapp": ""
+  },
+  {
+    "codigo": "3007387",
+    "nombre": "Ingeniería de los Recursos Hidráulicos",
+    "creditos": 3,
+    "obligatoria": false,
+    "agrupacion": "optativas-profesionales",
+    "semestre": null,
+    "prerrequisitos": [
+      "3006960"
+    ],
+    "whatsapp": ""
+  },
+  {
+    "codigo": "3009721",
+    "nombre": "Química Ambiental de Suelos",
+    "creditos": 3,
+    "obligatoria": false,
+    "agrupacion": "optativas-profesionales",
+    "semestre": null,
+    "prerrequisitos": [
+      "3009404"
+    ],
+    "whatsapp": "https://chat.whatsapp.com/BiCdrYuBOvX0B6LVDOvfZz"
+  },
+  {
+    "codigo": "3007050",
+    "nombre": "Manejo y Conservación de Suelos",
+    "creditos": 3,
+    "obligatoria": false,
+    "agrupacion": "optativas-profesionales",
+    "semestre": null,
+    "prerrequisitos": [],
+    "whatsapp": "https://chat.whatsapp.com/HRAoAq78A7eGyUv1kNBOIv?mode=gi_t"
+  },
+  {
+    "codigo": "3009718",
+    "nombre": "Microbiología de Rehabilitación de Suelos",
+    "creditos": 3,
+    "obligatoria": false,
+    "agrupacion": "optativas-profesionales",
+    "semestre": null,
+    "prerrequisitos": [
+      "3009404"
+    ],
+    "whatsapp": "https://chat.whatsapp.com/EOWrtggFBOZGtJahBQZs59?s=cl&p=i&mlu=0"
+  },
+  {
+    "codigo": "3010536",
+    "nombre": "Física Atmosférica",
+    "creditos": 3,
+    "obligatoria": false,
+    "agrupacion": "optativas-profesionales",
+    "semestre": null,
+    "prerrequisitos": [
+      "3006829",
+      "3006960",
+      "3006907"
+    ],
+    "whatsapp": ""
+  },
+  {
+    "codigo": "3010444",
+    "nombre": "Gestión de la Calidad del Aire",
+    "creditos": 3,
+    "obligatoria": false,
+    "agrupacion": "optativas-profesionales",
+    "semestre": null,
+    "prerrequisitos": [
+      "3006829",
+      "3006960"
+    ],
+    "whatsapp": "https://chat.whatsapp.com/CBxURNZ5u305O6DjMrE978"
+  },
+  {
+    "codigo": "3009006",
+    "nombre": "Climatología",
+    "creditos": 3,
+    "obligatoria": false,
+    "agrupacion": "optativas-profesionales",
+    "semestre": null,
+    "prerrequisitos": [
+      "3007385"
+    ],
+    "whatsapp": ""
+  },
+  {
+    "codigo": "3010451",
+    "nombre": "Química Atmosférica",
+    "creditos": 3,
+    "obligatoria": false,
+    "agrupacion": "optativas-profesionales",
+    "semestre": null,
+    "prerrequisitos": [
+      "3006829",
+      "1000007-M",
+      "3006907"
+    ],
+    "whatsapp": ""
+  },
+  {
+    "codigo": "3007465",
+    "nombre": "Oceanografía",
+    "creditos": 3,
+    "obligatoria": false,
+    "agrupacion": "optativas-profesionales",
+    "semestre": null,
+    "prerrequisitos": [
+      "1000019-M"
+    ],
+    "whatsapp": "https://chat.whatsapp.com/GIJte6YpU7pFe6g1AYS0rZ"
+  },
+  {
+    "codigo": "3007389",
+    "nombre": "Ingeniería de Puertos y Costas",
+    "creditos": 3,
+    "obligatoria": false,
+    "agrupacion": "optativas-profesionales",
+    "semestre": null,
+    "prerrequisitos": [
+      "3006960"
+    ],
+    "whatsapp": ""
+  },
+  {
+    "codigo": "3007466",
+    "nombre": "Geología Marina",
+    "creditos": 3,
+    "obligatoria": false,
+    "agrupacion": "optativas-profesionales",
+    "semestre": null,
+    "prerrequisitos": [
+      "3007000"
+    ],
+    "whatsapp": "https://chat.whatsapp.com/IZZ3JVYOddgGXdzGvkWXr9?mode=gi_c"
+  },
+  {
+    "codigo": "3009392",
+    "nombre": "Campo Marino de Suelos",
+    "creditos": 2,
+    "obligatoria": false,
+    "agrupacion": "optativas-profesionales",
+    "semestre": null,
+    "prerrequisitos": [
+      "3007000"
+    ],
+    "whatsapp": ""
+  },
+  {
+    "codigo": "3007371",
+    "nombre": "Acueductos y Alcantarillados",
+    "creditos": 3,
+    "obligatoria": false,
+    "agrupacion": "optativas-profesionales",
+    "semestre": null,
+    "prerrequisitos": [
+      "3007383"
+    ],
+    "whatsapp": ""
+  },
+  {
+    "codigo": "3007403",
+    "nombre": "Tratamiento de Aguas",
+    "creditos": 3,
+    "obligatoria": false,
+    "agrupacion": "optativas-profesionales",
+    "semestre": null,
+    "prerrequisitos": [
+      "3007383"
+    ],
+    "whatsapp": "https://chat.whatsapp.com/GpsrZs9EM4X8JuO9WuKFYn?mode=gi_t"
+  },
+  {
+    "codigo": "3007012",
+    "nombre": "Biorremediación",
+    "creditos": 4,
+    "obligatoria": false,
+    "agrupacion": "optativas-profesionales",
+    "semestre": null,
+    "prerrequisitos": [
+      "1000009-M",
+      "1000034-M",
+      "3010455"
+    ],
+    "whatsapp": ""
+  },
+  {
+    "codigo": "3008998",
+    "nombre": "Residuos Sólidos",
+    "creditos": 3,
+    "obligatoria": false,
+    "agrupacion": "optativas-profesionales",
+    "semestre": null,
+    "prerrequisitos": [
+      "3010455"
+    ],
+    "whatsapp": "https://chat.whatsapp.com/Kh5iHcquujxIWqNMDSIokl?mode=ems_wa_t"
+  },
+  {
+    "codigo": "3007227",
+    "nombre": "Conflictos Ambientales",
+    "creditos": 3,
+    "obligatoria": false,
+    "agrupacion": "optativas-profesionales",
+    "semestre": null,
+    "prerrequisitos": [
+      "3010501"
+    ],
+    "whatsapp": "https://chat.whatsapp.com/CJJPVht4u4Y3JvrSOhpODZ?mode=gi_t"
+  },
+  {
+    "codigo": "3007290",
+    "nombre": "Evaluación Económica y Social de Proyectos",
+    "creditos": 3,
+    "obligatoria": false,
+    "agrupacion": "optativas-profesionales",
+    "semestre": null,
+    "prerrequisitos": [
+      "3010501"
+    ],
+    "whatsapp": ""
+  },
+  {
+    "codigo": "3010452",
+    "nombre": "Sistemas de Gestión Ambiental Empresarial",
+    "creditos": 3,
+    "obligatoria": false,
+    "agrupacion": "optativas-profesionales",
+    "semestre": null,
+    "prerrequisitos": [
+      "3010501",
+      "3008231"
+    ],
+    "whatsapp": "https://chat.whatsapp.com/LIxgCOPph6z5HfYGUaQvFQ"
+  },
+  {
+    "codigo": "3010674",
+    "nombre": "Estrategias de Gestión y Gerencia de Proyectos en Ingeniería",
+    "creditos": 3,
+    "obligatoria": false,
+    "agrupacion": "optativas-profesionales",
+    "semestre": null,
+    "prerrequisitos": [
+      "3010407"
+    ],
+    "whatsapp": ""
+  },
+  {
+    "codigo": "3010537",
+    "nombre": "Gestión De Proyectos De Desarrollo y Metodología General Ajustada",
+    "creditos": 3,
+    "obligatoria": false,
+    "agrupacion": "optativas-profesionales",
+    "semestre": null,
+    "prerrequisitos": [
+      "3010407"
+    ],
+    "whatsapp": ""
+  },
+  {
+    "codigo": "3010668",
+    "nombre": "Proyectos de Innovación y Desarrollo",
+    "creditos": 3,
+    "obligatoria": false,
+    "agrupacion": "optativas-profesionales",
+    "semestre": null,
+    "prerrequisitos": [
+      "3010407"
+    ],
+    "whatsapp": ""
+  },
+  {
+    "codigo": "3010669",
+    "nombre": "Toma de Decisión para el Diseño en Ingeniería",
+    "creditos": 3,
+    "obligatoria": false,
+    "agrupacion": "optativas-profesionales",
+    "semestre": null,
+    "prerrequisitos": [
+      "3010407"
+    ],
+    "whatsapp": ""
+  },
+  {
+    "codigo": "3010535",
+    "nombre": "Fundamentos de Ciclo de Vida Para Ingeniería",
+    "creditos": 3,
+    "obligatoria": false,
+    "agrupacion": "optativas-profesionales",
+    "semestre": null,
+    "prerrequisitos": [
+      "3010439"
+    ],
+    "whatsapp": ""
+  },
+  {
+    "codigo": "3009230",
+    "nombre": "Trabajo de Grado",
+    "creditos": 6,
+    "obligatoria": true,
+    "agrupacion": "trabajo-grado",
+    "semestre": 10,
+    "prerrequisitos": [],
+    "whatsapp": ""
+  },
+  {
+    "codigo": "3010685",
+    "nombre": "Práctica de Extensión",
+    "creditos": 6,
+    "obligatoria": false,
+    "agrupacion": "trabajo-grado",
+    "semestre": null,
+    "prerrequisitos": [],
+    "whatsapp": ""
+  },
+  {
+    "codigo": "3009231",
+    "nombre": "Cursos de Posgrado",
+    "creditos": 6,
+    "obligatoria": false,
+    "agrupacion": "trabajo-grado",
+    "semestre": null,
+    "prerrequisitos": [],
+    "whatsapp": ""
+  }
+]

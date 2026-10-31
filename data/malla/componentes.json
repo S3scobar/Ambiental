@@ -1,0 +1,112 @@
+{
+  "componentes": [
+    {
+      "id": "fundamentacion",
+      "nombre": "Fundamentación",
+      "color": "#028090",
+      "descripcion": "Ciencias básicas, matemáticas, probabilidad, estadística, herramientas informáticas y ciencias socioeconómicas (Agua, Clima y Fisicoquímica ambiental)."
+    },
+    {
+      "id": "disciplinar",
+      "nombre": "Formación disciplinar o profesional",
+      "color": "#2c563e",
+      "descripcion": "Básicas de ingeniería, tecnologías y herramientas para el manejo ambiental, ciencias medioambientales, biosfera, proyectos y trabajo de grado."
+    },
+    {
+      "id": "libre-eleccion",
+      "nombre": "Libre elección",
+      "color": "#b45309",
+      "descripcion": "Créditos de libre elección para profundizar en áreas afines, energías renovables, territorio y desarrollo profesional complementario."
+    }
+  ],
+  "agrupaciones": [
+    {
+      "id": "matematicas-probabilidad-estadistica",
+      "componente": "fundamentacion",
+      "nombre": "Matemáticas, Probabilidad y Estadística",
+      "exigidos": 31,
+      "obligatorios": 31,
+      "optativos": 0
+    },
+    {
+      "id": "ciencias-basicas",
+      "componente": "fundamentacion",
+      "nombre": "Ciencias Básicas",
+      "exigidos": 24,
+      "obligatorios": 17,
+      "optativos": 7
+    },
+    {
+      "id": "herramientas-informaticas",
+      "componente": "fundamentacion",
+      "nombre": "Herramientas Informáticas",
+      "exigidos": 3,
+      "obligatorios": 3,
+      "optativos": 0
+    },
+    {
+      "id": "ciencias-socioeconomicas",
+      "componente": "fundamentacion",
+      "nombre": "Ciencias Socioeconómicas y Administrativas",
+      "exigidos": 6,
+      "obligatorios": 6,
+      "optativos": 0
+    },
+    {
+      "id": "basicas-ingenieria",
+      "componente": "disciplinar",
+      "nombre": "Básicas de Ingeniería",
+      "exigidos": 13,
+      "obligatorios": 10,
+      "optativos": 3
+    },
+    {
+      "id": "tecnologias-manejo-ambiental",
+      "componente": "disciplinar",
+      "nombre": "Tecnologías y Herramientas para el Manejo Ambiental",
+      "exigidos": 22,
+      "obligatorios": 16,
+      "optativos": 6
+    },
+    {
+      "id": "ciencias-medioambientales",
+      "componente": "disciplinar",
+      "nombre": "Ciencias Medioambientales",
+      "exigidos": 18,
+      "obligatorios": 13,
+      "optativos": 5
+    },
+    {
+      "id": "proyectos",
+      "componente": "disciplinar",
+      "nombre": "Proyectos en Ingeniería",
+      "exigidos": 10,
+      "obligatorios": 10,
+      "optativos": 0
+    },
+    {
+      "id": "optativas-profesionales",
+      "componente": "disciplinar",
+      "nombre": "Optativas Profesionales",
+      "exigidos": 6,
+      "obligatorios": 0,
+      "optativos": 6
+    },
+    {
+      "id": "trabajo-grado",
+      "componente": "disciplinar",
+      "nombre": "Trabajo de Grado",
+      "exigidos": 6,
+      "obligatorios": 6,
+      "optativos": 0
+    },
+    {
+      "id": "libre-eleccion",
+      "componente": "libre-eleccion",
+      "nombre": "Libre elección",
+      "exigidos": 35,
+      "obligatorios": 0,
+      "optativos": 35
+    }
+  ]
+}

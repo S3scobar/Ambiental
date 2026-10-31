@@ -1,0 +1,46 @@
+[
+  {
+    "id": "amet",
+    "nombre": "AMET",
+    "logo": "img/logo-amet.png",
+    "logoCuadrado": "img/logo-amet-cuadrado.png",
+    "tipo": "Capítulo estudiantil",
+    "color": "#00BCC8",
+    "enlace": "https://www.instagram.com/ametunalmed?stkn=MTZuaTB5Yzk4ZG12Ng==",
+    "email": "amet_med@unal.edu.co",
+    "descripcion": "Capítulo estudiantil y asociación de estudiantes de Ingeniería Ambiental en la Facultad de Minas. Promueve la articulación académica, la acción climática, educación ambiental y el fortalecimiento de la comunidad universitaria."
+  },
+  {
+    "id": "polygesta",
+    "nombre": "POLYGESTA",
+    "logo": "img/logo-polygesta.png",
+    "logoCuadrado": "img/logo-polygesta-cuadrado.png",
+    "tipo": "Grupo y semillero",
+    "color": "#2C563E",
+    "enlace": "https://www.instagram.com/gi_polygesta?stkn=MWh3OXU1ODJ5cmpvNA==",
+    "email": "polygesta_med@unal.edu.co",
+    "descripcion": "Grupo de investigación y semillero enfocado en Política, Legislación y Gestión Ambiental. Lidera iniciativas de economía circular, recuperación y valorización de residuos, y sostenibilidad territorial."
+  },
+  {
+    "id": "minka",
+    "nombre": "MINKA",
+    "logo": "img/logo-minka.png",
+    "logoCuadrado": "img/logo-minka-cuadrado.png",
+    "tipo": "Semillero de investigación",
+    "color": "#467949",
+    "enlace": "https://www.instagram.com/minka_unal_med?stkn=MWl2anJtZG15ejhuYQ==",
+    "email": "sesminka_med@unal.edu.co",
+    "descripcion": "Semillero en Sistemas Socioecológicos comprometido con el análisis interdisciplinario de las relaciones comunidad-naturaleza, soberanía alimentaria, justicia ambiental y ciencia participativa."
+  },
+  {
+    "id": "oceanicos",
+    "nombre": "Oceánicos",
+    "logo": "img/logo-oceanicos.png",
+    "logoCuadrado": "img/logo-oceanicos-cuadrado.png",
+    "tipo": "Grupo de investigación",
+    "color": "#031D44",
+    "enlace": "https://www.instagram.com/oceanicosunalmed?stkn=MTJkeGtkNWM4bjJqeg==",
+    "email": "oceanicos_med@unal.edu.co",
+    "descripcion": "Grupo pionero en oceanografía física, modelación matemática de costas, hidrodinámica marina, estuarios e ingeniería costera adscrito a la Facultad de Minas de la UNAL Medellín."
+  }
+]

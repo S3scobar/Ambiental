@@ -1,0 +1,27 @@
+{
+  "titulo": "Perfil del ingeniero ambiental egresado",
+  "intro": "Un profesional formado bajo el lema de la Facultad de Minas, «Trabajo y Rectitud», con sólida base científica, conciencia ecológica y liderazgo en la sostenibilidad del territorio.",
+  "rasgos": [
+    {
+      "icono": "ciencia",
+      "titulo": "Sustento científico y técnico",
+      "texto": "Domina la hidrología, hidráulica, calidad del aire, ciencias del suelo, biogeoquímica, ecología y modelación ambiental para diagnosticar y solucionar problemáticas complejas."
+    },
+    {
+      "icono": "equipo",
+      "titulo": "Investigación e interdisciplina",
+      "texto": "Lidera y participa en equipos multidisciplinarios para el monitoreo ecosistémico, gestión del riesgo, transición energética y conservación de zonas marino-costeras."
+    },
+    {
+      "icono": "gestion",
+      "titulo": "Gestión y ordenamiento territorial",
+      "texto": "Formula planes de ordenamiento territorial, evaluaciones de impacto ambiental (EIA), políticas públicas y sistemas de gestión socioecológica."
+    },
+    {
+      "icono": "empresa",
+      "titulo": "Sostenibilidad y consultoría",
+      "texto": "Diseña soluciones viables en empresas públicas, corporaciones autónomas (CAR), firmas de consultoría, bioeconomía y tratamiento de vertimientos y residuos."
+    }
+  ],
+  "fuente": "Resumen del Proyecto Educativo del Programa (PEP) de Ingeniería Ambiental, Facultad de Minas, Sede Medellín."
+}

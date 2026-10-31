@@ -1,0 +1,78 @@
+{
+  "nombre": "Ingeniería Ambiental",
+  "universidad": "Universidad Nacional de Colombia",
+  "sede": "Medellín",
+  "facultad": "Facultad de Minas",
+  "lema": "Trabajo y Rectitud",
+  "descripcion": [
+    "El programa de Ingeniería ambiental forma profesionales que analizan, comprenden, evaluan y gestionan las interacciones entre los sistemas naturales y las actividades humanas, con el fin de prevenir, mitigar y resolver problemáticas ambientales, mediante enfoques interdisciplinarios, estratégicos y prospectivos, orientados a la sostenibilidad y la armonía entre sociedad y naturaleza.",
+    "Este campo de estudio comprende los fenómenos y procesos físicos, químicos, biológicos, ecológicos, sociales y tecnológicos que afectan la calidad del ambiente en contextos naturales y construidos."
+  ],
+  "rutas": [
+    {
+      "id": "sistemas-hidricos",
+      "nombre": "Sistemas Hídricos",
+      "descripcion": "Análisis, modelación y gestión de los recursos hídricos.",
+      "icono": "hidrico",
+      "color": "#028090"
+    },
+    {
+      "id": "oceano-atmosfera",
+      "nombre": "Océano y Atmósfera",
+      "descripcion": "Estudio de los procesos marinos, atmosféricos y climáticos.",
+      "icono": "oceano",
+      "color": "#00bcc8"
+    },
+    {
+      "id": "saneamiento-ambiental",
+      "nombre": "Saneamiento Ambiental",
+      "descripcion": "Control de la calidad del agua, el aire y el suelo.",
+      "icono": "saneamiento",
+      "color": "#2c563e"
+    },
+    {
+      "id": "suelos-geologia",
+      "nombre": "Suelos y Geología",
+      "descripcion": "Estudio de los suelos, procesos geológicos y su relación con el territorio.",
+      "icono": "suelos",
+      "color": "#b45309"
+    },
+    {
+      "id": "gestion-ambiental-territorial",
+      "nombre": "Gestión Ambiental y Territorial",
+      "descripcion": "Planificación, gestión sostenible de los recursos naturales y ordenamiento territorial.",
+      "icono": "gestion",
+      "color": "#145a32"
+    }
+  ],
+  "ficha": [
+    { "etiqueta": "Título que otorga", "valor": "Ingeniero(a) Ambiental" },
+    { "etiqueta": "Créditos del plan", "valor": "174" },
+    { "etiqueta": "Duración del plan", "valor": "10 semestres" },
+    { "etiqueta": "Modalidad", "valor": "Presencial" },
+    { "etiqueta": "Jornada", "valor": "Diurna" },
+    { "etiqueta": "Sede y facultad", "valor": "Medellín · Facultad de Minas" },
+    { "etiqueta": "Área Curricular", "valor": "Medio Ambiente (Dpto. Geociencias y Medio Ambiente)" },
+    { "etiqueta": "Código SNIES", "valor": "55189" },
+    { "etiqueta": "Código SIA", "valor": "3529" },
+    { "etiqueta": "Creación", "valor": "2009 (Facultad de Minas, Sede Medellín)" }
+  ],
+  "cifras": [
+    { "valor": "174", "texto": "créditos" },
+    { "valor": "10", "texto": "semestres" },
+    { "valor": "Presencial", "texto": "jornada diurna" },
+    { "valor": "55189", "texto": "código SNIES" }
+  ],
+  "acreditacion": {
+    "estado": "Programa Académico de Alta Calidad · Facultad de Minas",
+    "hitos": [
+      { "anio": "2009", "texto": "Creación oficial del programa de Ingeniería Ambiental en la Facultad de Minas, Sede Medellín." },
+      { "anio": "Excelencia", "texto": "Reconocimiento y acreditación de alta calidad por su rigurosidad científica, labor investigativa e impacto socioambiental." }
+    ],
+    "nota": "Para conocer normativas, acuerdos curriculares y resoluciones vigentes, consulta a la Vicedecanatura Académica de la Facultad de Minas."
+  },
+  "fuentes": [
+    { "titulo": "Página oficial del programa · Facultad de Minas UNAL", "url": "https://minas.medellin.unal.edu.co/ingenieria-ambiental" },
+    { "titulo": "Facultad de Minas · Universidad Nacional de Colombia", "url": "https://minas.medellin.unal.edu.co/" }
+  ]
+}

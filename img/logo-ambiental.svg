@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f0f7f3"/>
+    </linearGradient>
+    <linearGradient id="leafGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D0FF01"/>
+      <stop offset="60%" stop-color="#2C563E"/>
+    </linearGradient>
+    <linearGradient id="waterGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00BCC8"/>
+      <stop offset="100%" stop-color="#031D44"/>
+    </linearGradient>
+    <linearGradient id="ringGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2C563E"/>
+      <stop offset="50%" stop-color="#00BCC8"/>
+      <stop offset="100%" stop-color="#2C563E"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="125%" height="125%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <!-- Fondo circular -->
+  <circle cx="100" cy="100" r="96" fill="url(#bgGrad)" stroke="url(#ringGrad)" stroke-width="4.5" filter="url(#shadow)"/>
+  <circle cx="100" cy="100" r="87" fill="none" stroke="#2C563E" stroke-width="1.2" stroke-dasharray="3 2" opacity="0.4"/>
+
+  <!-- Órbitas / Meridianos ecológicos (ingeniería de sistemas naturales) -->
+  <ellipse cx="100" cy="100" rx="72" ry="24" fill="none" stroke="#00BCC8" stroke-width="1.8" opacity="0.35" transform="rotate(-28 100 100)"/>
+  <ellipse cx="100" cy="100" rx="72" ry="24" fill="none" stroke="#2C563E" stroke-width="1.8" opacity="0.35" transform="rotate(28 100 100)"/>
+
+  <!-- Gota de agua (recurso hídrico y océanos) -->
+  <path d="M100 48 C100 48 76 86 76 108 C76 122 86.8 133 100 133 C113.2 133 124 122 124 108 C124 86 100 48 100 48 Z" 
+        fill="url(#waterGrad)" opacity="0.92"/>
+
+  <!-- Hoja viva interior (biodiversidad, bosques, suelos y bioeconomía) -->
+  <path d="M100 58 C100 58 118 84 115 106 C112 120 102 128 100 128 C98 128 88 120 85 106 C82 84 100 58 100 58 Z" 
+        fill="url(#leafGrad)"/>
+
+  <!-- Nervadura central de la hoja -->
+  <path d="M100 64 L100 126" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round" opacity="0.85"/>
+  <path d="M100 84 Q108 80 112 82" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" fill="none" opacity="0.75"/>
+  <path d="M100 96 Q92 92 88 94" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" fill="none" opacity="0.75"/>
+  <path d="M100 108 Q107 105 111 107" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" fill="none" opacity="0.75"/>
+
+  <!-- Ondas inferiores de agua cristalina -->
+  <path d="M68 138 C78 133 88 142 100 137 C112 133 122 142 132 138" 
+        fill="none" stroke="#00BCC8" stroke-width="3" stroke-linecap="round"/>
+  <path d="M76 147 C84 143 92 149 100 146 C108 143 116 149 124 146" 
+        fill="none" stroke="#2C563E" stroke-width="2.2" stroke-linecap="round" opacity="0.8"/>
+
+  <!-- Punto de brote / energía sostenible -->
+  <circle cx="100" cy="50" r="3.5" fill="#D0FF01" stroke="#2C563E" stroke-width="1.2"/>
+
+  <!-- Letras circulares o texto identificador -->
+  <text x="100" y="168" text-anchor="middle" font-family="'Plus Jakarta Sans', 'Outfit', sans-serif" font-size="10.5" font-weight="800" fill="#2C563E" letter-spacing="1.8">ING. AMBIENTAL</text>
+  <text x="100" y="180" text-anchor="middle" font-family="'Plus Jakarta Sans', 'Outfit', sans-serif" font-size="7.5" font-weight="600" fill="#00BCC8" letter-spacing="1.2">FACULTAD DE MINAS</text>
+</svg>
